@@ -1,10 +1,12 @@
 import {BrowserRouter as Router,Route} from 'react-router-dom'
-import Barra from './components/Barra.jsx'; 
+import Barra from './components/Barra.jsx';
+import RegistrarEstudiante from './components/RegistrarEstudiante.jsx';
 import './App.css'; 
 function App() {
   return (
   <Router>
-    <Barra/>
+    <Route exact path= '/' component={Barra}/>
+    <Route path= '/restudiante' exact component={RegistrarEstudiante}/>
   </Router>
   ); 
 } 

@@ -1,10 +1,10 @@
 import React from "react";
-import {Navbar,Container,Offcanvas,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap';
+import {Navbar,Container,Nav,NavDropdown } from 'react-bootstrap';
 
 export default function Barra() {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="dark" variant="dark" expand={false}>
         <Container>
           <Navbar.Brand href="#home">Menu</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
